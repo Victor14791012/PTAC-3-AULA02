@@ -1,4 +1,5 @@
 import Menu from "./componentes/Menu";
+import Futer from "./componentes/Futer";
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body>
         <Menu/>
-        
+        <Futer/>
         {children}
         </body>
     </html>
