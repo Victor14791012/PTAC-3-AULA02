@@ -2,15 +2,23 @@ import Link from "next/Link";
 import styles from "./menu.module.css";
 import Image  from "next/image";
 
-export default function Menu(){
+export default function Macarrao(){
     return(
-        <header className={styles.cabecalho}>
-<Image
+        <header className={styles.cabecalhoMacarrao}>
+
+        <Link href="https://moodle.org">
+        <Image
                 width={100}
                 height={100}
-                src={"https://www.ifms.edu.br/marcaifms.png"}
+                src={"https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg"}
             ></Image>
+        </Link>
 
+                    
+
+    
+           
+    
             
             <nav>
                 <ul>
@@ -19,9 +27,6 @@ export default function Menu(){
                     </Link>
                     <Link href="/registro">
                     <li>Registro</li>
-                    </Link>
-                    <Link href="/localizacao">
-                    <li>Localizacao</li>
                     </Link>
                     
                 </ul>
