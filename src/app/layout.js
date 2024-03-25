@@ -1,6 +1,6 @@
 import Menu from "./componentes/Menu";
 import Macarrao from "./componentes/Macarrao";
-import Map from "./componentes/Map";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const metadata = {
   title: 'Aulas PTAC',
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         
         <Menu/>
         <Macarrao/>
-        <Map/>
+        
 
         {children}
         </body>

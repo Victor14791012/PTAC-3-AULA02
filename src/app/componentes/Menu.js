@@ -11,7 +11,8 @@ export default function Menu(){
                 src={"https://www.ifms.edu.br/marcaifms.png"}
             ></Image>
 
-            
+
+
             <nav>
                 <ul>
                     <Link href="/">
